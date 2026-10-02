@@ -1,0 +1,7 @@
+runs/
+.git/
+__pycache__/
+.pytest_cache/
+__MACOSX/
+*Zone.Identifier
+dddi-main/

@@ -1,0 +1,35 @@
+# --- Secrets / local environment (keep only the template) ---
+.env
+.env.*
+!.env.example
+
+# --- Python environments and caches ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Databases and generated runtime data ---
+# runs/ holds per-run DuckDB files, published.json, last_run.json and ai_briefs.duckdb (HR-derived data, AI briefs)
+runs/
+*.duckdb
+*.duckdb.wal
+*.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Logs ---
+*.log
+
+# --- OS / editor / IDE ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Archive / download artifacts ---
+__MACOSX/
+*:Zone.Identifier

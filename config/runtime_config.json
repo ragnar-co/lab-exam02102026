@@ -1,0 +1,8 @@
+{
+  "reference_date": "2026-10-01",
+  "open_stages": ["reviewing", "follow_up", "collecting_info"],
+  "closed_stages": ["closed"],
+  "day_count_mode": "calendar_day_difference",
+  "top3_tie_break": "case_id ASC",
+  "approval_note": "open/closed mapping, day-count and tie-break are project-specific business decisions for this exam, supplied by the user; reference_date 2026-10-01 is a project-specific exam assumption confirmed by the candidate (not an industry standard, not in the original brief); override via CPD_REFERENCE_DATE"
+}
